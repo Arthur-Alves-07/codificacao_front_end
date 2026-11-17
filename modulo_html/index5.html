@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="index4.html" method="post">
+        <label for="nomeCompleto">Nome completo</label>
+        <input type="text" id="nomeCompleto" name="nomeCompleto">
+
+        <label>
+            E-mail
+            <input type="email" name="emailDoUsuario">
+        </label>
+        <label for="DataNascimento">Data de nascimento</label>
+        <input type="date" id="DataNascimento" name="DataNascimento">
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel"
+        <label for="url">link</label>
+        <input type="url" id="url" name="url">
+        <label for="time">Tempo</label>
+        <input type="time" id="time" name="time">
+        <label for="datetime-local">Data e Hora</label>
+        <input type="datetime-local" id="datetime-local" name="datetime-local">
+        <label for="month">Mês</label>
+        <input type="month" id="month" name="month">
+        <label for="week">Semana</label>
+        <input type="week" id="week" name="week">
+        <label for="color">Cor</label>
+        <input type="color" id="color" name="color">
+        <label for="range">Distância</label>
+        <input type="range" id="range" name="range">
+        <label for="search">Procurar</label>
+        <input type="search" id="search" name="search">
+
+        <!--Checkbox-->
+        <P>Quais tecnologias você conhece?</P>
+        <label>
+            <input type="checkbox" name="tecnologia" value="html">
+            HTML
+        </label>
+        <label>
+            <input type="checkbox" name="tecnologia" value="css">
+            CSS
+        </label>
+        <label>
+            <input type="checkbox" name="tecnologia" value="js">
+            JavaScript
+        </label>
+        <p>Qual é seu turno de estudo?</p>
+        <label>
+            <input type="radio" name="turno" value="manha">
+            Manhã
+        </label>
+        <label>
+            <input type="radio" name="turno" value="tarde">
+            Tarde
+        </label>
+        <label>
+            <input type="radio" name="turno" value="noite">
+            Noite
+        </label>
+
+        <label for="curso">Curso</label>
+        <select id="curso" name="curso">
+            <option value="">Selecione...</option>
+            <option value="informatica">informática</option>
+            <optgroup label="Gestão">
+                <option value="adm">Administração</option>
+                <option value="contaveis">Ciências contaveis</option>
+            </optgroup>
+        </select>
+        <label for="cidade"></label>
+        <input list="cidades" id="cidade" name="cidade">
+        <datalist id="cidades">
+            <option value="Chapecó">
+            <option value="Joinville">
+            <option value="Florianópolis">    
+        </datalist>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html> 
